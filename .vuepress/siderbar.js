@@ -30,7 +30,8 @@ module.exports = {
         createSideBarConfig('JUC', MULTITHREAD_PATH + '/JUC'),
     ],
     [LINUX_PATH]: [
-        createSideBarConfig('Linux', LINUX_PATH),
+        createSideBarConfig('Linux', LINUX_PATH + '/linux基础'),
+        createSideBarConfig('Redis', LINUX_PATH + '/Redis'),
     ],
     [FRAME_PATH]: [
         createSideBarConfig('Spring', FRAME_PATH + '/spring'),
