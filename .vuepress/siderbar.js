@@ -42,6 +42,7 @@ module.exports = {
     [JAVA_PATH]: [
         createSideBarConfig('JavaWeb', JAVA_PATH + '/JavaWeb'),
         createSideBarConfig('Java高级', JAVA_PATH + '/Java高级'),
+        createSideBarConfig('Java8新特性', JAVA_PATH + '/Java8新特性'),
     ]
 
 
