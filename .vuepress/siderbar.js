@@ -4,6 +4,8 @@ const MULTITHREAD_PATH = '/blogs/multiThread'
 const LINUX_PATH = '/blogs/linux'
 const FRAME_PATH = '/blogs/frame'
 const JAVA_PATH = '/blogs/java'
+const WORK_PATH = '/blogs/work'
+const DATABASE_PATH = '/blogs/database'
 
 
 module.exports = {
@@ -31,7 +33,6 @@ module.exports = {
     ],
     [LINUX_PATH]: [
         createSideBarConfig('Linux', LINUX_PATH + '/linux基础'),
-        createSideBarConfig('Redis', LINUX_PATH + '/Redis'),
     ],
     [FRAME_PATH]: [
         createSideBarConfig('Spring', FRAME_PATH + '/spring'),
@@ -42,7 +43,16 @@ module.exports = {
     [JAVA_PATH]: [
         createSideBarConfig('JavaWeb', JAVA_PATH + '/JavaWeb'),
         createSideBarConfig('Java高级', JAVA_PATH + '/Java高级'),
+        createSideBarConfig('Java基础', JAVA_PATH + '/Java基础'),
         createSideBarConfig('Java8新特性', JAVA_PATH + '/Java8新特性'),
+    ],
+    [WORK_PATH]: [
+        createSideBarConfig('算法', WORK_PATH + '/algorithm'),
+        createSideBarConfig('面试', WORK_PATH + '/interview'),
+    ],
+    [DATABASE_PATH]: [
+        createSideBarConfig('Redis', DATABASE_PATH + '/Redis'),
+        createSideBarConfig('MySQL', DATABASE_PATH + '/Mysql'),
     ]
 
 
