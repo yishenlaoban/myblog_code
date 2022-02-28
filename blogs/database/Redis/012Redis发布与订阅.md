@@ -2,8 +2,9 @@
 title: 十二、Redis发布与订阅
 date: 2022-02-13
 categories:
- - Linux
+ - 数据库
 tags:
+ - Nosql
  - Redis
 sidebar: 'auto'
 ---
