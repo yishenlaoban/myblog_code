@@ -6,6 +6,7 @@ const FRAME_PATH = '/blogs/frame'
 const JAVA_PATH = '/blogs/java'
 const WORK_PATH = '/blogs/work'
 const DATABASE_PATH = '/blogs/database'
+const TOOL_PATH = '/blogs/tool'
 
 
 module.exports = {
@@ -53,6 +54,9 @@ module.exports = {
     [DATABASE_PATH]: [
         createSideBarConfig('Redis', DATABASE_PATH + '/Redis'),
         createSideBarConfig('MySQL', DATABASE_PATH + '/MySQL'),
+    ],
+    [DATABASE_PATH]: [
+        createSideBarConfig('工具', DATABASE_PATH + '/'),
     ]
 
 
