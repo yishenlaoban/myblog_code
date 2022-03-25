@@ -53,10 +53,10 @@ module.exports = {
     ],
     [DATABASE_PATH]: [
         createSideBarConfig('Redis', DATABASE_PATH + '/Redis'),
-        createSideBarConfig('MySQL', DATABASE_PATH + '/MySQL'),
+        createSideBarConfig('MySQL', DATABASE_PATH + '/MySqL'),
     ],
-    [DATABASE_PATH]: [
-        createSideBarConfig('工具', DATABASE_PATH + '/'),
+    [TOOL_PATH]: [
+        createSideBarConfig('工具', TOOL_PATH),
     ]
 
 
