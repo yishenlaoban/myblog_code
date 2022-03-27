@@ -3,7 +3,7 @@ const plugins = require("./plugins.js");
 
 module.exports = {
     host: "0.0.0.0", // 生成网页地址（本地调试使用）
-    port: "8088", // 生成网页端口（本地调试使用）
+    port: "8081", // 生成网页端口（本地调试使用）
     title: "升升狠のBlog",
     description: "看清生活的本质，依旧热爱生活 。",
     dest: "public",
