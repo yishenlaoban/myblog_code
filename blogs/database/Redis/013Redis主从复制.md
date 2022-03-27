@@ -64,7 +64,7 @@ repl_backlog_histlen:0
 
 启动单机多服务集群：
 
-![image-20220212210050607](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212210050607.png) 
+![image-20220212210050607](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212210050607.png) 
 
 
 
@@ -78,15 +78,15 @@ repl_backlog_histlen:0
 
 注：在命令行修改配置，和配置主从复制，只在当前启动的进程中有效，如果想要永久生效必须改配置，重启服务
 
-![image-20220212210736657](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212210736657.png) 
+![image-20220212210736657](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212210736657.png) 
 
 **从机状态**
 
-![image-20220212211105526](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212211105526.png) 
+![image-20220212211105526](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212211105526.png) 
 
 **然后主机上也能看到从机的状态：**
 
-![image-20220212211141272](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212211141272.png) 
+![image-20220212211141272](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212211141272.png) 
 
 
 

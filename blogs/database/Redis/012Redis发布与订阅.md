@@ -13,19 +13,19 @@ sidebar: 'auto'
 
 Redis 发布订阅(pub/sub)是一种消息通信模式：发送者(pub)发送消息，订阅者(sub)接收消息。
 
-![image-20220212194828069](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212194828069.png)
+![image-20220212194828069](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212194828069.png)
 
 
 
 下图展示了频道 channel1 ， 以及订阅这个频道的三个客户端 —— client2 、 client5 和 client1 之间的关系：
 
-![image-20220212195707742](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212195707742.png) 
+![image-20220212195707742](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212195707742.png) 
 
 
 
 当有新消息通过 PUBLISH 命令发送给频道 channel1 时， 这个消息就会被发送给订阅它的三个客户端：
 
-![image-20220212195728171](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212195728171.png) 
+![image-20220212195728171](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212195728171.png) 
 
 
 
@@ -80,7 +80,7 @@ Reading messages... (press Ctrl-C to quit)
 
 ​       每个 Redis 服务器进程都维持着一个表示服务器状态的 redis.h/redisServer 结构， 结构的 pubsub_channels 属性是一个字典，==这个字典就用于保存订阅频道的信息==，其中，字典的键为正在被订阅的频道， 而字典的值则是一个==链表==， 链表中保存了所有订阅这个频道的客户端。
 
-![image-20220212202001216](https://gitee.com/yishenlaoban/git-typore/raw/master/image_my/image-20220212202001216.png) 
+![image-20220212202001216](http://yishenlaoban-img.test.upcdn.net/image_my/image-20220212202001216.png) 
 
 客户端订阅，就被链接到对应频道的链表的尾部，退订则就是将客户端节点从链表中移除。
 
