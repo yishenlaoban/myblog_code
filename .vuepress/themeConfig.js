@@ -51,6 +51,6 @@ module.exports = {
     lastUpdated: "Last Updated",
     author: "yishenlaoban",
     authorAvatar: "/avatar.jpg",
-    record: "牛掰格拉斯",
+    record: "湘ICP备2022006134号",
     startYear: "2022",
 }
