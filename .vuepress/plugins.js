@@ -61,5 +61,14 @@ module.exports = [
 
         },
     ],
+    [
+        "dynamic-title", {
+            showIcon: "https://img.yishenlaoban.top/image_my/favicon.ico",
+            showText: "Welcome Back！",
+            hideIcon: "https://img.yishenlaoban.top/image_my/favicon.ico",
+            hideText: "Wait ...",
+            recoverTime: 2000
+        },
+    ]
 
 ]

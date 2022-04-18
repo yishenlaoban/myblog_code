@@ -6,6 +6,9 @@ module.exports = {
     valineConfig: {
         appId: "aHK0qkN4cjw1Is9Cqy8Wdkz2-gzGzoHsz",
         appKey: "k35sXUypgk4HGct55SWEk1Ca",
+        recordIP: true,
+        placeholder: '小张同学需要你的评论...',
+        visitor: true,
     },
     nav: [{
             text: "主页",
@@ -18,12 +21,17 @@ module.exports = {
             icon: "reco-date",
         },
         {
-            text: "Contact",
+            text: "关于",
             icon: "reco-message",
             items: [{
                     text: "GitHub",
                     link: "https://github.com/yishenlaoban",
                     icon: "reco-github",
+                },
+                {
+                    text: "gitee",
+                    link: "https://gitee.com/yishenlaoban",
+                    icon: "reco-mayun",
                 },
                 {
                     text: "CSDN",
