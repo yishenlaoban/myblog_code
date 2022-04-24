@@ -33,7 +33,7 @@ module.exports = [
                 //   server: 'netease',
                 //   type: 'playlist',
                 //   mid: '6838211960',
-                auto: 'https://music.163.com/#/playlist?id=100524452'
+                auto: 'https://music.163.com/#/playlist?id=2145762470'
             }, // 不配置该项的话不会出现全局播放器
 
             aplayer: {
