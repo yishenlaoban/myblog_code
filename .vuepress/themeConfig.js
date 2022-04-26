@@ -6,9 +6,9 @@ module.exports = {
     valineConfig: {
         appId: "aHK0qkN4cjw1Is9Cqy8Wdkz2-gzGzoHsz",
         appKey: "k35sXUypgk4HGct55SWEk1Ca",
-        recordIP: true,
         placeholder: '小张同学需要你的评论...',
-        visitor: true,
+        enableQQ: true,
+
     },
     nav: [{
             text: "主页",
