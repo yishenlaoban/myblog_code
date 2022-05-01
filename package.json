@@ -8,6 +8,7 @@
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
+    "highlight": "^0.2.4",
     "vuepress": "1.5.4",
     "vuepress-plugin-cursor-effects": "^1.0.2",
     "vuepress-plugin-dynamic-title": "^1.0.0",

@@ -4339,6 +4339,11 @@
   "resolved" "https://registry.nlark.com/hex-color-regex/download/hex-color-regex-1.1.0.tgz"
   "version" "1.1.0"
 
+"highlight@^0.2.4":
+  "integrity" "sha1-isAodbA/WTXgZ1hSt2z+H9WODf8="
+  "resolved" "https://registry.npmjs.org/highlight/-/highlight-0.2.4.tgz"
+  "version" "0.2.4"
+
 "hmac-drbg@^1.0.1":
   "integrity" "sha1-0nRXAQJabHdabFRXk+1QL8DGSaE="
   "resolved" "https://registry.nlark.com/hmac-drbg/download/hmac-drbg-1.0.1.tgz"
@@ -8547,6 +8552,11 @@
   "version" "0.2.0"
   dependencies:
     "vue-disqus" "^3.0.5"
+
+"vuepress-plugin-dynamic-title@^1.0.0":
+  "integrity" "sha512-CN1wtkPNG3shGzEFgqOa2dzojSle7SeAaf+Cw77Xmkv8jvB3wO5r2zXkIHTjiclQY1c5q5lE8h2A9vQaLdor2Q=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-dynamic-title/-/vuepress-plugin-dynamic-title-1.0.0.tgz"
+  "version" "1.0.0"
 
 "vuepress-plugin-feed@^0.1.8":
   "integrity" "sha1-cG/DgcGDHBENFht+iSBXdQyJBNo= sha512-iOJkR7zPmJAX0TEVdxNsUT07xNQB6lZFpU7DqsYzO01FhaPkMOOVM5Vx5a/iOOuOggAeoI9H9yuah+cRmCImlw=="

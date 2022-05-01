@@ -69,6 +69,7 @@ module.exports = [
             hideText: "Wait ...",
             recoverTime: 2000
         },
-    ]
+    ],
+
 
 ]
