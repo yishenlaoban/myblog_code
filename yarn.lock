@@ -3173,6 +3173,11 @@
   "resolved" "https://registry.nlark.com/deepmerge/download/deepmerge-1.5.2.tgz"
   "version" "1.5.2"
 
+"deepmerge@^4.2.2":
+  "integrity" "sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg=="
+  "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz"
+  "version" "4.2.2"
+
 "default-gateway@^4.2.0":
   "integrity" "sha1-FnEEx1AMIRX23WmwpTa7jtcgVSs="
   "resolved" "https://registry.nlark.com/default-gateway/download/default-gateway-4.2.0.tgz"
@@ -3912,6 +3917,11 @@
     "locate-path" "^5.0.0"
     "path-exists" "^4.0.0"
 
+"flexsearch@^0.6.32":
+  "integrity" "sha512-EF1BWkhwoeLtbIlDbY/vDSLBen/E5l/f1Vg7iX5CDymQCamcx1vhlc3tIZxIDplPjgi0jhG37c67idFbjg+v+Q=="
+  "resolved" "https://registry.npmjs.org/flexsearch/-/flexsearch-0.6.32.tgz"
+  "version" "0.6.32"
+
 "flush-write-stream@^1.0.0":
   "integrity" "sha1-jdfYc6G6vCB9lOrQwuDkQnbr8ug="
   "resolved" "https://registry.nlark.com/flush-write-stream/download/flush-write-stream-1.1.1.tgz"
@@ -4329,7 +4339,7 @@
     "inherits" "^2.0.3"
     "minimalistic-assert" "^1.0.1"
 
-"he@^1.1.0", "he@1.2.x":
+"he@^1.1.0", "he@^1.2.0", "he@1.2.x":
   "integrity" "sha1-hK5l+n6vsWX922FWauFLrwVmTw8="
   "resolved" "https://registry.nlark.com/he/download/he-1.2.0.tgz"
   "version" "1.2.0"
@@ -4408,6 +4418,16 @@
   "integrity" "sha1-e15vfmZen7QfMAB+2eDUHpf7IUA="
   "resolved" "https://registry.nlark.com/html-tags/download/html-tags-3.1.0.tgz"
   "version" "3.1.0"
+
+"html-to-text@^7.0.0":
+  "integrity" "sha512-c9QWysrfnRZevVpS8MlE7PyOdSuIOjg8Bt8ZE10jMU/BEngA6j3llj4GRfAmtQzcd1FjKE0sWu5IHXRUH9YxIQ=="
+  "resolved" "https://registry.npmjs.org/html-to-text/-/html-to-text-7.1.1.tgz"
+  "version" "7.1.1"
+  dependencies:
+    "deepmerge" "^4.2.2"
+    "he" "^1.2.0"
+    "htmlparser2" "^6.1.0"
+    "minimist" "^1.2.5"
 
 "htmlparser2@^6.1.0":
   "integrity" "sha1-xNditsM3GgXb5l6UrkOp+EX7j7c="
@@ -5377,7 +5397,7 @@
   "resolved" "https://registry.nlark.com/lodash.uniq/download/lodash.uniq-4.5.0.tgz"
   "version" "4.5.0"
 
-"lodash@^4.17.10", "lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.3", "lodash@^4.17.5":
+"lodash@^4.17.10", "lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.3", "lodash@^4.17.5":
   "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw= sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.nlark.com/lodash/download/lodash-4.17.21.tgz?cache=0&sync_timestamp=1622685830565&other_urls=https%3A%2F%2Fregistry.nlark.com%2Flodash%2Fdownload%2Flodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -8546,6 +8566,11 @@
   "resolved" "https://registry.nlark.com/vuepress-plugin-cursor-effects/download/vuepress-plugin-cursor-effects-1.0.2.tgz"
   "version" "1.0.2"
 
+"vuepress-plugin-demo-block@^0.7.2":
+  "integrity" "sha512-0k7z7bTjXoXgdAMVFIVn3RFSQpKOM0yvD0hf/CA0gMCLBih77mCALtEpH9b+bEvijHmLLIq+BUtS2TQHXpkbNA=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-demo-block/-/vuepress-plugin-demo-block-0.7.2.tgz"
+  "version" "0.7.2"
+
 "vuepress-plugin-disqus@^0.2.0":
   "integrity" "sha1-ClveQk+B4Bhe2jb7oj16xMrm/wc= sha512-kx+AeVzjJ9lx9bufLt1/X35V1VXfnQ1srkDMIzFKD9NyQ3eycsWQRcGO1dFe1HMrY3+7fTu+1/JeUEUEpGZ5tw=="
   "resolved" "https://registry.nlark.com/vuepress-plugin-disqus/download/vuepress-plugin-disqus-0.2.0.tgz"
@@ -8570,6 +8595,15 @@
     "lodash.trimstart" "^4.5.1"
     "remove-markdown" "0.3.0"
     "striptags" "3.1.1"
+
+"vuepress-plugin-fulltext-search@^2.2.1":
+  "integrity" "sha512-+BOLOdOTvwg7+4z71fmpuZUaHSw+exrw8S9m0kvBUgIVDoe5VS/G3y4hcd+K1hukbkxE/ec10Ikk8hc/3zf2VQ=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-fulltext-search/-/vuepress-plugin-fulltext-search-2.2.1.tgz"
+  "version" "2.2.1"
+  dependencies:
+    "flexsearch" "^0.6.32"
+    "html-to-text" "^7.0.0"
+    "lodash" "^4.17.19"
 
 "vuepress-plugin-mailchimp@^1.4.1":
   "integrity" "sha1-Nz+h348DqJk4F7Cd37i9nQShxmU= sha512-4t5ZaKZXu5ZkwgE+WW//7CgXgz6DEhRefGrO5aql4PwapauNXlHKgQ2JMf9FRe5y5WHjNpDHYveEDNzISZmxJw=="
@@ -8619,6 +8653,18 @@
   dependencies:
     "smoothscroll-polyfill" "^0.4.4"
 
+"vuepress-plugin-thirdparty-search@^1.0.2":
+  "integrity" "sha512-qXAzHCsbe7fKdqZyI7cax6qtVZpqbW5TEp+NOwCzgN6IIrHc8vOkz+shCTvc+qzDgqE31+geT1lPFFX6LvbOFQ=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-thirdparty-search/-/vuepress-plugin-thirdparty-search-1.0.2.tgz"
+  "version" "1.0.2"
+
+"vuepress-plugin-zooming@^1.1.7":
+  "integrity" "sha512-QAspMEqzerd0n8z/oOL5a67V/QaFZyjSwfo86y6PWhDdVAeOLR7umJ7syQqJpMdN9EVxmAstuzbKHkRxWzL0NQ=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-zooming/-/vuepress-plugin-zooming-1.1.8.tgz"
+  "version" "1.1.8"
+  dependencies:
+    "zooming" "^2.1.1"
+
 "vuepress-theme-reco@1.5.7":
   "integrity" "sha1-EAySsz3Nkxh0lSrE6yfhI8+/h84= sha512-EFhePs61GGrDNwM8Y3JF7/oxh2ffcxGZNkHPZk8LTEjdj+jOQrMtTSqAD3wnK+NY/xbhwsDo60ByJ9ItwSm54w=="
   "resolved" "https://registry.npmmirror.com/vuepress-theme-reco/download/vuepress-theme-reco-1.5.7.tgz"
@@ -8635,7 +8681,7 @@
     "vue-click-outside" "1.1.0"
     "vuepress-plugin-smooth-scroll" "^0.0.9"
 
-"vuepress@^1.0.0", "vuepress@1.5.4", "vuepress@1.x":
+"vuepress@^1.0.0", "vuepress@^1.4.0", "vuepress@1.5.4", "vuepress@1.x":
   "integrity" "sha1-KC0kEsHHJp2L2TuD1CHvU7d7RfY= sha512-F25r65BzxDFAJmWIN9s9sQSndLIf1ldAKEwkeXCqE4p2lsx/eVvQJL3DzOeeR2WgCFOkhFMKWIV+CthTGdNTZg=="
   "resolved" "https://registry.nlark.com/vuepress/download/vuepress-1.5.4.tgz"
   "version" "1.5.4"
@@ -9019,3 +9065,8 @@
   "integrity" "sha1-4Se9nmb9hGvl6rSME5SIL3wOT5g= sha512-C1x6lfvBICFTQIMgbt3JqMOno3VOtkWat/xEakLTOurskYIHPmzJrzd1e8BnmtdDVJlGuk5D+FxyCA8MPmkIyA=="
   "resolved" "https://registry.nlark.com/zepto/download/zepto-1.2.0.tgz"
   "version" "1.2.0"
+
+"zooming@^2.1.1":
+  "integrity" "sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA=="
+  "resolved" "https://registry.npmjs.org/zooming/-/zooming-2.1.1.tgz"
+  "version" "2.1.1"

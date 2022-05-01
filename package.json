@@ -1,25 +1,29 @@
 {
-  "name": "my_blog",
-  "version": "1.0.0",
-  "author": "reco_luan",
-  "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build .",
-    "deploy": "bash deploy.sh"
-  },
-  "devDependencies": {
-    "highlight": "^0.2.4",
-    "vuepress": "1.5.4",
-    "vuepress-plugin-cursor-effects": "^1.0.2",
-    "vuepress-plugin-dynamic-title": "^1.0.0",
-    "vuepress-plugin-meting": "^0.1.1",
-    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
-    "vuepress-plugin-ribbon": "^1.0.4",
-    "vuepress-theme-reco": "1.5.7"
-  },
-  "dependencies": {
-    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
-    "vue-class-component": "^7.2.3"
-  },
-  "description": ""
+    "name": "my_blog",
+    "version": "1.0.0",
+    "author": "reco_luan",
+    "scripts": {
+        "dev": "vuepress dev .",
+        "build": "vuepress build .",
+        "deploy": "bash deploy.sh"
+    },
+    "devDependencies": {
+        "highlight": "^0.2.4",
+        "vuepress": "1.5.4",
+        "vuepress-plugin-demo-block": "^0.7.2",
+        "vuepress-plugin-fulltext-search": "^2.2.1",
+        "vuepress-plugin-zooming": "^1.1.7",
+        "vuepress-plugin-thirdparty-search": "^1.0.2",
+        "vuepress-plugin-cursor-effects": "^1.0.2",
+        "vuepress-plugin-dynamic-title": "^1.0.0",
+        "vuepress-plugin-meting": "^0.1.1",
+        "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+        "vuepress-plugin-ribbon": "^1.0.4",
+        "vuepress-theme-reco": "1.5.7"
+    },
+    "dependencies": {
+        "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
+        "vue-class-component": "^7.2.3"
+    },
+    "description": ""
 }
