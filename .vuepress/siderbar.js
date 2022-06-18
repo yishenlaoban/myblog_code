@@ -34,6 +34,7 @@ module.exports = {
     ],
     [LINUX_PATH]: [
         createSideBarConfig('Linux', LINUX_PATH + '/linux基础'),
+        createSideBarConfig('Linux', LINUX_PATH + '/Docker'),
     ],
     [FRAME_PATH]: [
         createSideBarConfig('Spring', FRAME_PATH + '/spring'),
